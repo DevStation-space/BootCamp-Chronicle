@@ -39,8 +39,9 @@ const Register = () => {
   };
 
   return (
-    <div id="Form">
-      <form>
+   
+      <div className="mx-20 my-10 items-center align-center flex justify-center w-screen " >
+      <form id='Form' >
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">
             Name
@@ -80,11 +81,13 @@ const Register = () => {
           />
         </div>
 
-        <button type="submit" class="btn btn-primary" onClick={sendData}>
+        <button type="submit" class="btn btn-primary text-black hover:text-white" onClick={sendData}>
           Submit
         </button>
       </form>
     </div>
+   
+    
   );
 };
 

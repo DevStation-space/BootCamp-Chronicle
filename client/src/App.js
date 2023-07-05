@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <context.Provider value={{ state, dispatch }}>
+      <context.Provider value={{ state, dispatch }} >
         <Navbar />
         <Routing />
       </context.Provider>
